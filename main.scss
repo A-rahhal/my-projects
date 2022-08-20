@@ -1,0 +1,36 @@
+$primary:#987aac;
+$success:#d2b7e4;
+
+@import'node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+
+
+
+@media(max-width:768px){
+    #mm{
+      display:none;
+    }
+  }
+  #nav-search #nav-search-result{
+    position:absolute;
+    width:100%;
+  }
+  .scaleAnimation{
+    transition: all 0.5s ease;
+  }
+  .scaleAnimation:hover{
+    transform: scale(1.1);
+  }
+  .btn-primary{
+    color: #fff;
+  }
+  .btn-primary:hover{
+    background-color: #fff;
+    color: $primary;
+    border: 2px solid $primary;
+  }
+  #icon{
+    color: #fff;
+  }
