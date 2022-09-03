@@ -1,11 +1,7 @@
 $primary:#987aac;
 $success:#d2b7e4;
 
-@import'node_modules/bootstrap/scss/bootstrap.scss';
-
-
-
-
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
 
 
 @media(max-width:768px){
@@ -17,6 +13,7 @@ $success:#d2b7e4;
     position:absolute;
     width:100%;
   }
+  
   .scaleAnimation{
     transition: all 0.5s ease;
   }
@@ -33,4 +30,10 @@ $success:#d2b7e4;
   }
   #icon{
     color: #fff;
+  }
+  .scaleAnimation .btn:hover{
+    transform: scale(1.1);
+  }
+  .scaleAnimation .btn{
+    transition: all 0.5s ease;
   }

@@ -10952,4 +10952,12 @@ textarea.form-control-lg {
 
 #icon {
   color: #fff;
+}
+
+.scaleAnimation .btn:hover {
+  transform: scale(1.1);
+}
+
+.scaleAnimation .btn {
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=main.css.map */
